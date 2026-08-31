@@ -56,16 +56,19 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
+  // Network-first, falling back to the cache only when offline. A pure
+  // cache-first strategy here would mean any update to app.js/config.js/
+  // questions.js is invisible to returning visitors forever, since CACHE_NAME
+  // never changes between deployments and nothing would ever re-fetch.
   event.respondWith(
-    caches.match(request).then((cached) => {
-      if (cached) return cached;
-      return fetch(request).then((response) => {
+    fetch(request)
+      .then((response) => {
         if (response.ok) {
           const copy = response.clone();
           caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
         }
         return response;
-      });
-    })
+      })
+      .catch(() => caches.match(request))
   );
 });
