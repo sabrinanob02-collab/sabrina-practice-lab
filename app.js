@@ -1,5 +1,5 @@
 (function () {
-  const APP_CONFIG = globalThis.PRACTICE_LAB_CONFIG || {};
+  const APP_CONFIG = typeof PRACTICE_LAB_CONFIG !== "undefined" ? PRACTICE_LAB_CONFIG : {};
   const STORAGE_NAMESPACE = APP_CONFIG.storageNamespace || "law-school-practice-lab-starter";
   const STORAGE_KEY = `${STORAGE_NAMESPACE}-progress-v1`;
   const THEME_KEY = `${STORAGE_NAMESPACE}-theme`;
