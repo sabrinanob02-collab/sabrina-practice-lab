@@ -44,10 +44,5 @@
       { "path": "sources/con-law-ii/Con Law II.docx", "sha256": "8a65f1c6e2177623beb8619c713617fd37983639b77c32fc14ee058c1d3d4fd7", "status": "student's own class notes" }
     ],
     "knownGap": "No slide deck exists for this course as of the cutoff. Session 4 (Aug. 27) reading is assigned but not yet reflected in confirmed class notes, so it is excluded from this pack."
-  },
-  "Demo Course A": {
-    "controllingSourceDescription": "authoring/example-sources/DEMO_ONLY_SOURCE.md",
-    "verifiedThrough": "fictional demonstration only",
-    "bundledRawSources": true
   }
 }

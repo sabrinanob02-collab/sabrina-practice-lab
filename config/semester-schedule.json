@@ -41,17 +41,6 @@
         "notes": "This course has posted no slides at all as of the cutoff; only the syllabus and the student's own session notes control."
       }
     },
-    {
-      "name": "Demo Course A",
-      "meetingPattern": "Replace with days and times",
-      "examDate": null,
-      "nextClass": {
-        "date": null,
-        "assignedPages": [],
-        "slides": [],
-        "notes": "Update only from the current syllabus and course site."
-      }
-    }
   ],
   "deadlines": []
 }

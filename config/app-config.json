@@ -13,9 +13,8 @@
   },
   "expectedQuestionCounts": {
     "Trademarks and Unfair Competition": 38,
-    "Constitutional Criminal Procedure I": 12,
-    "Constitutional Law II": 8,
-    "Demo Course A": 4
+    "Constitutional Criminal Procedure I": 24,
+    "Constitutional Law II": 15
   },
   "courses": [
     {
@@ -32,11 +31,6 @@
       "name": "Constitutional Law II",
       "color": "#3a5a9c",
       "status": "Seeded from Prof. Higginbotham's syllabus and session notes through Session 3 (Aug. 25); no slides posted yet."
-    },
-    {
-      "name": "Demo Course A",
-      "color": "#9a5b35",
-      "status": "Replace with a real course after reviewing its controlling materials."
     }
   ]
 }
