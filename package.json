@@ -1,0 +1,12 @@
+{
+  "name": "law-school-practice-lab-starter",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Portable source-locked law-school question drill starter",
+  "scripts": {
+    "import": "node tools/import-question-packs.mjs",
+    "build": "node tools/audit-publication.mjs",
+    "test": "node tools/test-app.mjs && node tools/audit-question-bank.mjs && node tools/audit-portability.mjs && node tools/audit-publication.mjs",
+    "verify": "node tools/import-question-packs.mjs && node tools/test-app.mjs && node tools/audit-question-bank.mjs && node tools/audit-portability.mjs && node tools/audit-publication.mjs && node --check app.js && node --check questions.js && node --check service-worker.js && node --check config.js"
+  }
+}

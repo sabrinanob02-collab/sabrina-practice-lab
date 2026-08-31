@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Law School Practice Lab</title>
+  <meta name="description" content="Offline-ready law-school drills with local progress and spaced review.">
+  <meta name="theme-color" content="#6d3f29">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Practice Lab">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icons/practice-lab-icon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/practice-lab-apple-touch-180.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app-shell">
+    <section class="topbar" aria-label="Drill controls">
+      <div>
+        <p class="eyebrow" id="semesterEyebrow">Your Semester · source-locked drills</p>
+        <h1 id="appTitle">Law School Practice Lab</h1>
+      </div>
+      <div class="top-actions">
+        <button id="shareAppBtn" class="ghost" type="button">Share</button>
+        <button id="themeToggleBtn" class="ghost" type="button" aria-pressed="false">Dark theme</button>
+        <button id="resetStatsBtn" class="ghost" type="button" title="Reset saved progress">Reset</button>
+      </div>
+    </section>
+
+    <section class="control-strip" aria-label="Session setup">
+      <div class="course-filter"><span class="control-label">Course</span><div class="course-multi" id="courseMulti"><button type="button" id="courseMultiBtn" class="course-multi-btn" aria-haspopup="true" aria-expanded="false">All courses</button><div id="courseMultiPopover" class="course-multi-popover" hidden role="group" aria-label="Select courses to drill"></div></div></div>
+      <label><span>Practice set</span><select id="setSelect" aria-label="Practice set"><option value="all">All verified sets</option></select></label>
+      <label><span>Topic</span><select id="topicSelect" aria-label="Topic"><option value="all">All topics</option></select></label>
+      <label><span>Mode</span><select id="modeSelect"><option value="all">All questions</option><option value="missed">Missed review</option><option value="flagged">Flagged review</option><option value="weak">Weak-area mix</option><option value="spaced">Spaced review</option></select></label>
+      <fieldset class="difficulty-filter" id="difficultyFilter"><legend class="control-label">Difficulty</legend><label><input type="checkbox" value="easy" checked> Easy</label><label><input type="checkbox" value="medium" checked> Med</label><label><input type="checkbox" value="hard" checked> Hard</label></fieldset>
+      <label><span>Timer</span><select id="timerSelect"><option value="0">Untimed</option><option value="30">30 sec</option><option value="60">60 sec</option><option value="90">90 sec</option></select></label>
+      <label><span>Length</span><select id="sessionSizeSelect"><option value="5">5 questions</option><option value="10">10 questions</option><option value="15">15 questions</option><option value="25">25 questions</option><option value="50">50 questions</option><option value="all">All matching</option></select></label>
+      <button id="startBtn" class="primary" type="button">Start</button>
+    </section>
+
+    <section class="stats-grid" aria-label="Progress"><article><span class="stat-label">Answered</span><strong id="answeredStat">0</strong></article><article><span class="stat-label">Accuracy</span><strong id="accuracyStat">0%</strong></article><article><span class="stat-label">Missed</span><strong id="missedStat">0</strong></article><article><span class="stat-label">Flagged</span><strong id="flaggedStat">0</strong></article><article><span class="stat-label">Timer</span><strong id="timerStat">Off</strong></article></section>
+
+    <section class="workspace">
+      <aside class="side-panel" aria-label="Question bank status"><div class="mini-chart" id="courseChart"></div><div><h2>Weak Areas</h2><ol id="weakList" class="weak-list"></ol></div><div><h2>Next Up</h2><p id="reviewSuggestion" class="review-suggestion"></p></div><div><h2>Sources</h2><p id="sourceSummary" class="source-summary"></p><p class="source-summary" id="sourceLaneNote">The included courses and questions are fictional examples. Replace them with material verified against your own courses.</p></div></aside>
+      <section class="question-panel">
+        <div class="question-meta"><span id="coursePill" aria-label="Course"></span><span id="topicPill" aria-label="Topic"></span><span id="typePill" aria-label="Question type"></span><span id="difficultyPill" aria-label="Difficulty"></span><span id="progressPill" aria-label="Progress" aria-live="polite"></span></div>
+        <h2 id="questionText">Choose a verified set or mixed session and start drilling.</h2>
+        <div class="question-tools"><details class="shortcut-tip"><summary>Keys</summary><span>1-9 answer, Enter next, Left back</span></details><button id="flagBtn" class="ghost flag-btn" type="button" aria-pressed="false" hidden>Flag for review</button><button id="revealBtn" class="ghost" type="button" hidden>Reveal</button><button id="skipBtn" class="ghost" type="button" hidden>Skip</button></div>
+        <div id="answerList" class="answer-list"></div>
+        <div id="feedbackBox" class="feedback-box" hidden aria-live="polite" aria-atomic="true"><div id="feedbackTitle" class="feedback-title"></div><section class="feedback-section" aria-labelledby="feedbackAuthoritiesHeading"><h3 id="feedbackAuthoritiesHeading">Authorities</h3><p id="feedbackCase"></p></section><section class="feedback-section" aria-labelledby="feedbackRuleHeading"><h3 id="feedbackRuleHeading">Rule</h3><p id="feedbackRule"></p></section><section class="feedback-section" aria-labelledby="feedbackApplicationHeading"><h3 id="feedbackApplicationHeading">Application</h3><p id="feedbackApplication"></p></section><section class="feedback-section" aria-labelledby="feedbackConclusionHeading"><h3 id="feedbackConclusionHeading">Conclusion</h3><p id="feedbackConclusion"></p></section><p><strong>Source:</strong> <span id="feedbackSource"></span></p></div>
+        <p id="liveStatus" class="sr-only" aria-live="polite" aria-atomic="true"></p><div class="panel-actions"><button id="backBtn" class="ghost" type="button" disabled>Back</button><button id="endSessionBtn" class="ghost" type="button" disabled>Session End</button><button id="nextBtn" class="primary" type="button" disabled>Next</button></div>
+      </section>
+    </section>
+  </main>
+  <script src="config.js"></script>
+  <script src="rule-bank.js"></script>
+  <script src="questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

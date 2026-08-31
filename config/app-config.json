@@ -1,0 +1,42 @@
+{
+  "appTitle": "Sabrina's Practice Lab",
+  "shortTitle": "Practice Lab",
+  "semesterLabel": "Fall 2026",
+  "tagline": "Source-locked law-school drills",
+  "description": "Offline-ready law-school practice with verified question sets, local progress, and spaced review.",
+  "storageNamespace": "sabrina-practice-lab",
+  "themeColor": "#6d3f29",
+  "deployment": {
+    "githubUser": "sabrinanob02-collab",
+    "repository": "sabrina-practice-lab",
+    "publicUrl": "https://sabrinanob02-collab.github.io/sabrina-practice-lab/"
+  },
+  "expectedQuestionCounts": {
+    "Trademarks and Unfair Competition": 38,
+    "Constitutional Criminal Procedure I": 12,
+    "Constitutional Law II": 8,
+    "Demo Course A": 4
+  },
+  "courses": [
+    {
+      "name": "Trademarks and Unfair Competition",
+      "color": "#16776f",
+      "status": "Ready-to-use seeded course; source-locked through the assigned Aug. 31 material."
+    },
+    {
+      "name": "Constitutional Criminal Procedure I",
+      "color": "#8a4b2f",
+      "status": "Seeded from Prof. Makar's Class 1-5 slides, casebook assignments, and class outline/notes; source-locked through Aug. 31, 2026."
+    },
+    {
+      "name": "Constitutional Law II",
+      "color": "#3a5a9c",
+      "status": "Seeded from Prof. Higginbotham's syllabus and session notes through Session 3 (Aug. 25); no slides posted yet."
+    },
+    {
+      "name": "Demo Course A",
+      "color": "#9a5b35",
+      "status": "Replace with a real course after reviewing its controlling materials."
+    }
+  ]
+}

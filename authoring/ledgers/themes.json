@@ -1,0 +1,10 @@
+{
+  "TM-01": { "theme": "Chesapeake Artisan Market", "reuse": "Avoid near-term reuse." },
+  "TM-02": { "theme": "The Lantern District", "reuse": "Avoid as the next principal setting." },
+  "TM-03": { "theme": "Brightwater Makers District", "reuse": "Avoid near-term reuse." },
+  "TM-04": { "theme": "Old Line Design Cooperative", "reuse": "Avoid near-term reuse." },
+  "TM-05": { "theme": "Patapsco Product Studio", "reuse": "Avoid near-term reuse." },
+  "DEMO-A": { "theme": "Lakeshore Licensing Board", "reuse": "Delete when replacing the fictional demo course." },
+  "CCP-01": { "theme": "Ashgrove Township", "reuse": "Avoid near-term reuse. Also avoid the professor's own hypo-set locales (Fairhaven, Millbrook Ridge, Cedar Hollow, Port Alden) as blacklisted." },
+  "CLII-01": { "theme": "Meridian County Records", "reuse": "Avoid near-term reuse." }
+}

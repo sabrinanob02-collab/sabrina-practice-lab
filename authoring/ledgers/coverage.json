@@ -1,0 +1,34 @@
+{
+  "version": "2026-08-31",
+  "courses": {
+    "Trademarks and Unfair Competition": {
+      "publishedSets": ["TM-01", "TM-02", "TM-03", "TM-04", "TM-05"],
+      "cutoff": "Cumulative Classes 1-4 through 2026-08-31",
+      "assignedRanges": ["Beebe printed pp. 1-67", "Beebe printed pp. 71-108", "Beebe printed pp. 131-146"],
+      "intentionalGaps": ["pp. 68-70", "pp. 109-130", "p. 147 onward"],
+      "status": "38 vetted original MC questions; reading-grounded through Aug. 31",
+      "limitation": "No Aug. 31 slide-deck coverage is claimed. Reconcile Sabrina's authorized copy before extending the set."
+    },
+    "Constitutional Criminal Procedure I": {
+      "publishedSets": ["CCP-01"],
+      "cutoff": "Classes 1-5 (Aug. 17-31, 2026)",
+      "assignedRanges": ["3E 208-248 / 4E 211-244 (protected interests)", "Chatrie v. United States excerpt (Class 3)", "3E 161-183 / 4E 163-184 (search warrants, skip Grubbs)", "3E 187-204 / 4E 189-205 (warrant execution)"],
+      "intentionalGaps": ["Class 6 onward (probable cause and later topics) not yet covered"],
+      "status": "12 vetted original MC questions; grounded in Classes 1-5 slides, assigned casebook pages, and the student's class outline/notes",
+      "limitation": "No Class 6 (Sept. 2) slide deck was available when this pack was assembled. No coverage of that class is claimed."
+    },
+    "Constitutional Law II": {
+      "publishedSets": ["CLII-01"],
+      "cutoff": "Sessions 1-3 (Aug. 18-25, 2026)",
+      "assignedRanges": ["Syllabus pp. 1-13 (Session 1, overview)", "Stone pp. 405, 671-672, 444-455, 457-463 (Session 2, rational basis)", "Stone pp. 405-407, 409-413, 418-420, 425-429, 431-433 (Session 3, race and equality history)"],
+      "intentionalGaps": ["Session 4 (Aug. 27, heightened scrutiny and the problem of race) assigned but not yet reflected in confirmed class notes; Session 5 (Sept. 1) onward not covered"],
+      "status": "8 vetted original MC questions; grounded in the syllabus and the student's session notes",
+      "limitation": "No slide deck exists for this course as of the cutoff; only the syllabus and session notes control. Session 4 reading is assigned but excluded from this pack pending confirmed notes."
+    },
+    "Demo Course A": {
+      "publishedSets": ["DEMO-A"],
+      "cutoff": "Fictional demonstration source items 1-4",
+      "status": "Four examples to replace after the first real new course is verified"
+    }
+  }
+}

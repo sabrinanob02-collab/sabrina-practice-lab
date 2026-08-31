@@ -1,0 +1,10 @@
+{
+  "maximumAnswerImbalance": 1,
+  "forbiddenQuestionSurfacePatterns": [
+    "\\b(?:Model\\s+)?Rules?\\s+\\d",
+    "\\b(?:Fed\\.?\\s+R\\.?\\s+Civ\\.?\\s+P\\.?|Federal Rule)\\s+\\d",
+    "\\b\\d+\\s+U\\.?S\\.?C\\.?\\s+§",
+    "\\bv\\.\\s+[A-Z]"
+  ],
+  "notes": "Add course-specific case names, rule labels, statutes, and professor-specific telegraphing phrases before publishing real questions."
+}

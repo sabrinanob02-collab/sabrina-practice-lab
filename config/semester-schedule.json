@@ -1,0 +1,57 @@
+{
+  "semester": "Fall 2026",
+  "timezone": "Set your timezone",
+  "courses": [
+    {
+      "name": "Trademarks and Unfair Competition",
+      "professor": "Professor Sipe",
+      "meetingPattern": "Confirm against your current syllabus",
+      "examDate": null,
+      "verifiedCoverageThrough": "2026-08-31",
+      "nextClass": {
+        "date": null,
+        "assignedPages": ["Beebe 13th ed. assigned pp. 89-108 and 131-146; cumulative verified ranges pp. 1-67, 71-108, and 131-146"],
+        "slides": [],
+        "notes": "The Aug. 31 slide deck was not included or claimed as covered. Point Claude to your authorized copy before requesting a slide-grounded extension."
+      }
+    },
+    {
+      "name": "Constitutional Criminal Procedure I",
+      "professor": "Professor Makar",
+      "meetingPattern": "M/W 9:00a-10:15a, AL 603",
+      "examDate": null,
+      "verifiedCoverageThrough": "2026-08-31 (Class 5)",
+      "nextClass": {
+        "date": "2026-09-02",
+        "assignedPages": ["Class 6: Probable cause; 3E pp. 258-279 / 4E pp. 254-274, majority opinion in Gates only"],
+        "slides": [],
+        "notes": "No slide deck for Class 6 was available when this pack was assembled. Point Claude to the posted deck before requesting a further extension."
+      }
+    },
+    {
+      "name": "Constitutional Law II",
+      "professor": "Professor Higginbotham",
+      "meetingPattern": "T/Th 3:00p-4:15p, Angelos Law Center Room 803",
+      "examDate": null,
+      "verifiedCoverageThrough": "2026-08-25 (Session 3); Session 4 (Aug. 27) assigned but not yet reflected in confirmed class notes",
+      "nextClass": {
+        "date": "2026-09-01",
+        "assignedPages": ["Session 5: Equal Protection Methodology: Heightened Scrutiny and the Problem of Race (continued); Stone pp. 463-469, 470-479, 481-490, 492-495"],
+        "slides": [],
+        "notes": "This course has posted no slides at all as of the cutoff; only the syllabus and the student's own session notes control."
+      }
+    },
+    {
+      "name": "Demo Course A",
+      "meetingPattern": "Replace with days and times",
+      "examDate": null,
+      "nextClass": {
+        "date": null,
+        "assignedPages": [],
+        "slides": [],
+        "notes": "Update only from the current syllabus and course site."
+      }
+    }
+  ],
+  "deadlines": []
+}
