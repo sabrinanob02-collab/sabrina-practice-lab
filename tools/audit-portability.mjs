@@ -62,8 +62,13 @@ for (const { full, rel } of files) {
   }
 }
 
-for (const expected of allowedRawSources) {
-  if (!files.some(({ rel }) => rel === expected)) failures.push(`authorized source missing: ${expected}`);
+// sources/ is gitignored and never published, so it is legitimately absent in a fresh
+// checkout (CI, or the published _site build). Only require every allowed raw source to
+// be present when the sources/ directory itself exists, i.e. in the local authoring copy.
+if (fs.existsSync(path.join(ROOT, "sources"))) {
+  for (const expected of allowedRawSources) {
+    if (!files.some(({ rel }) => rel === expected)) failures.push(`authorized source missing: ${expected}`);
+  }
 }
 
 console.log(JSON.stringify({ scannedFiles: files.length, failures }, null, 2));
