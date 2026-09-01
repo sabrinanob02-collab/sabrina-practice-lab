@@ -41,7 +41,8 @@
     "publicationRule": "The sources directory is authoring-only and must never be copied into _site.",
     "sources": [
       { "path": "sources/con-law-ii/Higginbotham_Con Law II_Fall 2026_Syllabus-1.docx", "sha256": "7b7da90e730ae5741ae72396b809eb77a9be025e38bfd96102f1d5bbbfd83c60", "status": "professor-shared syllabus" },
-      { "path": "sources/con-law-ii/Con Law II.docx", "sha256": "8a65f1c6e2177623beb8619c713617fd37983639b77c32fc14ee058c1d3d4fd7", "status": "student's own class notes" }
+      { "path": "sources/con-law-ii/Con Law II.docx", "sha256": "8a65f1c6e2177623beb8619c713617fd37983639b77c32fc14ee058c1d3d4fd7", "status": "student's own class notes" },
+      { "path": "sources/con-law-ii/Students for Fair Admissions v. President Fellows of Harvard College reading-1.pdf", "sha256": "510f6155bccd68bc4f30047c467ce54c78b8cfbe2723555f11b39557b8fbdb56", "status": "professor-shared Canvas reading, Session 6 (Sept. 3) - public-domain federal court opinion, not subject to the West Academic/Aspen casebook-copyright restriction" }
     ],
     "knownGap": "No slide deck exists for this course as of the cutoff. Session 4 (Aug. 27) reading is assigned but not yet reflected in confirmed class notes, so it is excluded from this pack."
   }

@@ -37,7 +37,8 @@ const allowedRawSources = new Set([
   "sources/con-crim-pro/ConCrim_Hypo_Set_3_CedarHollow.docx",
   "sources/con-crim-pro/ConCrim_Hypo_Set_4_PortAlden_Capstone.docx",
   "sources/con-law-ii/Higginbotham_Con Law II_Fall 2026_Syllabus-1.docx",
-  "sources/con-law-ii/Con Law II.docx"
+  "sources/con-law-ii/Con Law II.docx",
+  "sources/con-law-ii/Students for Fair Admissions v. President Fellows of Harvard College reading-1.pdf"
 ]);
 const files = [];
 
