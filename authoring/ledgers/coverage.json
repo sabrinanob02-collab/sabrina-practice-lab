@@ -10,12 +10,12 @@
       "limitation": "No Aug. 31 slide-deck coverage is claimed. Reconcile Sabrina's authorized copy before extending the set."
     },
     "Constitutional Criminal Procedure I": {
-      "publishedSets": ["CCP-01", "CCP-02"],
-      "cutoff": "Classes 1-5 (Aug. 17-31, 2026)",
-      "assignedRanges": ["3E 208-248 / 4E 211-244 (protected interests)", "Chatrie v. United States excerpt (Class 3)", "3E 161-183 / 4E 163-184 (search warrants, skip Grubbs)", "3E 187-204 / 4E 189-205 (warrant execution)"],
-      "intentionalGaps": ["Class 6 onward (probable cause and later topics) not yet covered"],
-      "status": "24 vetted original MC questions across two packs; grounded in Classes 1-5 slides, assigned casebook pages, and the student's class outline/notes. CCP-02 covers seizure doctrine, the three warrant requirements, warrant challenges, and warrant-execution detention/timing not used in CCP-01.",
-      "limitation": "No Class 6 (Sept. 2) slide deck was available when this pack was assembled. No coverage of that class is claimed."
+      "publishedSets": ["CCP-01", "CCP-02", "CCP-03"],
+      "cutoff": "Classes 1-6 (Aug. 17-Sept. 2, 2026)",
+      "assignedRanges": ["3E 208-248 / 4E 211-244 (protected interests)", "Chatrie v. United States excerpt (Class 3)", "3E 161-183 / 4E 163-184 (search warrants, skip Grubbs)", "3E 187-204 / 4E 189-205 (warrant execution)", "3E 258-279 / 4E 254-274 (probable cause, majority opinion only; confirmed read only through 4E p. 269)"],
+      "intentionalGaps": ["4E pp. 270-274 (the majority's application to its own facts, its disposition, and any good-faith-exception discussion) not confirmed as read and not covered", "Class 7 onward not yet covered"],
+      "status": "32 vetted original MC questions across three packs; grounded in Classes 1-6 slides (where posted), assigned casebook pages, and the student's class outline/notes. CCP-03 covers the two probable-cause showings, the practical/non-technical standard, the superseded two-pronged informant test, and its replacement by the totality-of-the-circumstances approach.",
+      "limitation": "No Class 6 (Sept. 2) slide deck was available when this pack was assembled; Class 6 coverage rests on the assigned casebook pages read live (through 4E p. 269 only, not the full assigned range) plus course framing. No coverage of 4E pp. 270-274 or Class 7 onward is claimed."
     },
     "Constitutional Law II": {
       "publishedSets": ["CLII-01", "CLII-02"],

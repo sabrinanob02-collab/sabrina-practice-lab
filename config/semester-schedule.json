@@ -20,12 +20,12 @@
       "professor": "Professor Makar",
       "meetingPattern": "M/W 9:00a-10:15a, AL 603",
       "examDate": null,
-      "verifiedCoverageThrough": "2026-08-31 (Class 5)",
+      "verifiedCoverageThrough": "2026-09-02 (Class 6; assigned casebook pages confirmed only through 4E p. 269, not the full 254-274 range)",
       "nextClass": {
-        "date": "2026-09-02",
-        "assignedPages": ["Class 6: Probable cause; 3E pp. 258-279 / 4E pp. 254-274, majority opinion in Gates only"],
+        "date": null,
+        "assignedPages": [],
         "slides": [],
-        "notes": "No slide deck for Class 6 was available when this pack was assembled. Point Claude to the posted deck before requesting a further extension."
+        "notes": "Class 7's assigned reading is not yet confirmed against the current syllabus. Point Claude to the syllabus and any posted deck before requesting the next extension."
       }
     },
     {
@@ -40,7 +40,7 @@
         "slides": [],
         "notes": "This course has posted no slides at all as of the cutoff; only the syllabus and the student's own session notes control."
       }
-    },
+    }
   ],
   "deadlines": []
 }

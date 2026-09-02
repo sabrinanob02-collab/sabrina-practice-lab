@@ -7,5 +7,6 @@
   "CCP-01": { "theme": "Ashgrove Township", "reuse": "Avoid near-term reuse. Also avoid the professor's own hypo-set locales (Fairhaven, Millbrook Ridge, Cedar Hollow, Port Alden) as blacklisted." },
   "CLII-01": { "theme": "Meridian County Records", "reuse": "Avoid near-term reuse." },
   "CCP-02": { "theme": "Larkspur Crossing", "reuse": "Avoid near-term reuse. Also avoid the professor's own hypo-set locales (Fairhaven, Millbrook Ridge, Cedar Hollow, Port Alden) as blacklisted." },
-  "CLII-02": { "theme": "Driftwood County Civic Center", "reuse": "Avoid near-term reuse." }
+  "CLII-02": { "theme": "Driftwood County Civic Center", "reuse": "Avoid near-term reuse." },
+  "CCP-03": { "theme": "Norwood Junction", "reuse": "Avoid near-term reuse. Also avoid the professor's own hypo-set locales (Fairhaven, Millbrook Ridge, Cedar Hollow, Port Alden) as blacklisted." }
 }

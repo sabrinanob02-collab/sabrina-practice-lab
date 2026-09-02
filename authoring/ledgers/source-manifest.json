@@ -17,7 +17,7 @@
   },
   "Constitutional Criminal Procedure I": {
     "controllingSourceDescription": "Prof. Makar's Fall 2026 syllabus, posted Class 1-5 slides, the assigned Weaver/Burkoff/Hancock casebook pages, and the student's own class outline/notes",
-    "verifiedThrough": "2026-08-31 (Class 5)",
+    "verifiedThrough": "2026-09-02 (Class 6, probable cause — assigned casebook pages read live through 4E p. 269 only; no slide deck exists for this class)",
     "bundledRawSources": true,
     "publicationRule": "The sources directory is authoring-only and must never be copied into _site.",
     "sources": [
@@ -32,7 +32,7 @@
       { "path": "sources/con-crim-pro/ConCrim_Hypo_Set_3_CedarHollow.docx", "sha256": "9b3381fa125d097e84c799a564ed118d5c496a64d788ada152799d7b7abcdd74", "status": "professor practice hypo set (style/blacklist calibration only, not a doctrine source)" },
       { "path": "sources/con-crim-pro/ConCrim_Hypo_Set_4_PortAlden_Capstone.docx", "sha256": "00d39b927529827872cb4222dc1569480cae3900e48738760594734a72559c3b", "status": "professor practice hypo set (style/blacklist calibration only, not a doctrine source)" }
     ],
-    "knownGap": "No Class 6 (Sept. 2, probable cause) slide deck was available when this pack was assembled; no coverage of that class is claimed."
+    "knownGap": "No Class 6 (Sept. 2, probable cause) slide deck exists to date. Class 6's assigned casebook pages (3E 258-279 / 4E 254-274, Gates majority only) were read live via Sabrina's authenticated West Academic session, not bundled here per this course's read-only casebook policy, and only confirmed through 4E p. 269 — pp. 270-274 are not covered."
   },
   "Constitutional Law II": {
     "controllingSourceDescription": "Prof. Higginbotham's Fall 2026 syllabus and the student's own session notes",

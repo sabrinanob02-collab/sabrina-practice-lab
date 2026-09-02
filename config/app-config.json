@@ -13,7 +13,7 @@
   },
   "expectedQuestionCounts": {
     "Trademarks and Unfair Competition": 38,
-    "Constitutional Criminal Procedure I": 24,
+    "Constitutional Criminal Procedure I": 32,
     "Constitutional Law II": 15
   },
   "courses": [
@@ -25,7 +25,7 @@
     {
       "name": "Constitutional Criminal Procedure I",
       "color": "#8a4b2f",
-      "status": "Seeded from Prof. Makar's Class 1-5 slides, casebook assignments, and class outline/notes; source-locked through Aug. 31, 2026."
+      "status": "Seeded from Prof. Makar's Class 1-6 slides (where posted), casebook assignments, and class outline/notes; source-locked through Sept. 2, 2026."
     },
     {
       "name": "Constitutional Law II",
