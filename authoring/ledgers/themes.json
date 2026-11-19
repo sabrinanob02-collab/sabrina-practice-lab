@@ -1,12 +1,82 @@
 {
-  "TM-01": { "theme": "Chesapeake Artisan Market", "reuse": "Avoid near-term reuse." },
-  "TM-02": { "theme": "The Lantern District", "reuse": "Avoid as the next principal setting." },
-  "TM-03": { "theme": "Brightwater Makers District", "reuse": "Avoid near-term reuse." },
-  "TM-04": { "theme": "Old Line Design Cooperative", "reuse": "Avoid near-term reuse." },
-  "TM-05": { "theme": "Patapsco Product Studio", "reuse": "Avoid near-term reuse." },
-  "CCP-01": { "theme": "Ashgrove Township", "reuse": "Avoid near-term reuse. Also avoid the professor's own hypo-set locales (Fairhaven, Millbrook Ridge, Cedar Hollow, Port Alden) as blacklisted." },
-  "CLII-01": { "theme": "Meridian County Records", "reuse": "Avoid near-term reuse." },
-  "CCP-02": { "theme": "Larkspur Crossing", "reuse": "Avoid near-term reuse. Also avoid the professor's own hypo-set locales (Fairhaven, Millbrook Ridge, Cedar Hollow, Port Alden) as blacklisted." },
-  "CLII-02": { "theme": "Driftwood County Civic Center", "reuse": "Avoid near-term reuse." },
-  "CCP-03": { "theme": "Norwood Junction", "reuse": "Avoid near-term reuse. Also avoid the professor's own hypo-set locales (Fairhaven, Millbrook Ridge, Cedar Hollow, Port Alden) as blacklisted." }
+  "TM-01": {
+    "theme": "Chesapeake Artisan Market",
+    "reuse": "Avoid near-term reuse."
+  },
+  "TM-02": {
+    "theme": "The Lantern District",
+    "reuse": "Avoid as the next principal setting."
+  },
+  "TM-03": {
+    "theme": "Brightwater Makers District",
+    "reuse": "Avoid near-term reuse."
+  },
+  "TM-04": {
+    "theme": "Old Line Design Cooperative",
+    "reuse": "Avoid near-term reuse."
+  },
+  "TM-05": {
+    "theme": "Patapsco Product Studio",
+    "reuse": "Avoid near-term reuse."
+  },
+  "CCP-01": {
+    "theme": "Ashgrove Township",
+    "reuse": "Avoid near-term reuse. Also avoid the professor's own hypo-set locales (Fairhaven, Millbrook Ridge, Cedar Hollow, Port Alden) as blacklisted."
+  },
+  "CLII-01": {
+    "theme": "Meridian County Records",
+    "reuse": "Avoid near-term reuse."
+  },
+  "CCP-02": {
+    "theme": "Larkspur Crossing",
+    "reuse": "Avoid near-term reuse. Also avoid the professor's own hypo-set locales (Fairhaven, Millbrook Ridge, Cedar Hollow, Port Alden) as blacklisted."
+  },
+  "CLII-02": {
+    "theme": "Driftwood County Civic Center",
+    "reuse": "Avoid near-term reuse."
+  },
+  "CCP-03": {
+    "theme": "Norwood Junction",
+    "reuse": "Avoid near-term reuse. Also avoid the professor's own hypo-set locales (Fairhaven, Millbrook Ridge, Cedar Hollow, Port Alden) as blacklisted."
+  },
+  "CCP-04": {
+    "theme": "Halvorsen Bay",
+    "reuse": "Avoid near-term reuse. Also avoid the professor's own hypo-set locales (Fairhaven, Millbrook Ridge, Cedar Hollow, Port Alden) as blacklisted."
+  },
+  "CCP-05": {
+    "theme": "Tallow Creek",
+    "reuse": "Avoid near-term reuse. Also avoid the professor's own hypo-set locales (Fairhaven, Millbrook Ridge, Cedar Hollow, Port Alden) as blacklisted."
+  },
+  "CCP-06": {
+    "theme": "Ironbridge Falls",
+    "reuse": "Avoid near-term reuse. Also avoid the professor's own hypo-set locales (Fairhaven, Millbrook Ridge, Cedar Hollow, Port Alden) as blacklisted."
+  },
+  "CCP-07": {
+    "theme": "Wexford Point",
+    "reuse": "Avoid near-term reuse. Also avoid the professor's own hypo-set locales (Fairhaven, Millbrook Ridge, Cedar Hollow, Port Alden) as blacklisted."
+  },
+  "CCP-08": {
+    "theme": "Saltmarsh Junction",
+    "reuse": "Avoid near-term reuse. Also avoid the professor's own hypo-set locales (Fairhaven, Millbrook Ridge, Cedar Hollow, Port Alden) as blacklisted."
+  },
+  "CCP-09": {
+    "theme": "Kestrel Heights",
+    "reuse": "Avoid near-term reuse. Also avoid the professor's own hypo-set locales (Fairhaven, Millbrook Ridge, Cedar Hollow, Port Alden) as blacklisted."
+  },
+  "CCP-10": {
+    "theme": "Brannock County",
+    "reuse": "Avoid near-term reuse. Also avoid the professor's own hypo-set locales (Fairhaven, Millbrook Ridge, Cedar Hollow, Port Alden) as blacklisted."
+  },
+  "CCP-11": {
+    "theme": "Glenmara",
+    "reuse": "Avoid near-term reuse. Also avoid the professor's own hypo-set locales (Fairhaven, Millbrook Ridge, Cedar Hollow, Port Alden) as blacklisted."
+  },
+  "CCP-12": {
+    "theme": "Copperline",
+    "reuse": "Avoid near-term reuse. Also avoid the professor's own hypo-set locales (Fairhaven, Millbrook Ridge, Cedar Hollow, Port Alden) as blacklisted."
+  },
+  "CCP-13": {
+    "theme": "Osprey Landing",
+    "reuse": "Avoid near-term reuse. Also avoid the professor's own hypo-set locales (Fairhaven, Millbrook Ridge, Cedar Hollow, Port Alden) as blacklisted."
+  }
 }

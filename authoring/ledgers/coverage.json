@@ -2,26 +2,89 @@
   "version": "2026-08-31",
   "courses": {
     "Trademarks and Unfair Competition": {
-      "publishedSets": ["TM-01", "TM-02", "TM-03", "TM-04", "TM-05"],
+      "publishedSets": [
+        "TM-01",
+        "TM-02",
+        "TM-03",
+        "TM-04",
+        "TM-05"
+      ],
       "cutoff": "Cumulative Classes 1-4 through 2026-08-31",
-      "assignedRanges": ["Beebe printed pp. 1-67", "Beebe printed pp. 71-108", "Beebe printed pp. 131-146"],
-      "intentionalGaps": ["pp. 68-70", "pp. 109-130", "p. 147 onward"],
+      "assignedRanges": [
+        "Beebe printed pp. 1-67",
+        "Beebe printed pp. 71-108",
+        "Beebe printed pp. 131-146"
+      ],
+      "intentionalGaps": [
+        "pp. 68-70",
+        "pp. 109-130",
+        "p. 147 onward"
+      ],
       "status": "38 vetted original MC questions; reading-grounded through Aug. 31",
       "limitation": "No Aug. 31 slide-deck coverage is claimed. Reconcile Sabrina's authorized copy before extending the set."
     },
     "Constitutional Criminal Procedure I": {
-      "publishedSets": ["CCP-01", "CCP-02", "CCP-03"],
-      "cutoff": "Classes 1-6 (Aug. 17-Sept. 2, 2026)",
-      "assignedRanges": ["3E 208-248 / 4E 211-244 (protected interests)", "Chatrie v. United States excerpt (Class 3)", "3E 161-183 / 4E 163-184 (search warrants, skip Grubbs)", "3E 187-204 / 4E 189-205 (warrant execution)", "3E 258-279 / 4E 254-274 (probable cause, majority opinion only; confirmed read only through 4E p. 269)"],
-      "intentionalGaps": ["4E pp. 270-274 (the majority's application to its own facts, its disposition, and any good-faith-exception discussion) not confirmed as read and not covered", "Class 7 onward not yet covered"],
-      "status": "32 vetted original MC questions across three packs; grounded in Classes 1-6 slides (where posted), assigned casebook pages, and the student's class outline/notes. CCP-03 covers the two probable-cause showings, the practical/non-technical standard, the superseded two-pronged informant test, and its replacement by the totality-of-the-circumstances approach.",
-      "limitation": "No Class 6 (Sept. 2) slide deck was available when this pack was assembled; Class 6 coverage rests on the assigned casebook pages read live (through 4E p. 269 only, not the full assigned range) plus course framing. No coverage of 4E pp. 270-274 or Class 7 onward is claimed."
+      "publishedSets": [
+        "CCP-01",
+        "CCP-02",
+        "CCP-03",
+        "CCP-04",
+        "CCP-05",
+        "CCP-06",
+        "CCP-07",
+        "CCP-08",
+        "CCP-09",
+        "CCP-10",
+        "CCP-11",
+        "CCP-12",
+        "CCP-13"
+      ],
+      "cutoff": "Classes 1-26 (Aug. 17-Nov. 16, 2026); CCP-04 through CCP-13 are cumulative final-exam practice sets",
+      "assignedRanges": [
+        "3E 208-248 / 4E 211-244 (protected interests)",
+        "Chatrie v. United States excerpt (Class 3)",
+        "3E 161-183 / 4E 163-184 (search warrants, skip Grubbs)",
+        "3E 187-204 / 4E 189-205 (warrant execution)",
+        "3E 258-279 / 4E 254-274 (probable cause, majority opinion only; confirmed read only through 4E p. 269)",
+        "4E 284-308 (Class 7: plain view, arrests, search incident to arrest, cell phones)",
+        "4E 311-327 (Class 8: cars, booking)",
+        "4E 327-344, 378-383, 489-491 (Class 9: automobiles, inventory, administrative, borders)",
+        "4E 349-357, 362-365, 368-372, 374-376 (Class 10: consent, apparent authority, co-occupants)",
+        "4E 494-502, 506-510, 514-516, 531-532 (Class 11: special needs, drug testing, exigency)",
+        "4E 392-400, 408-412 (Class 14: stop and frisk, schools)",
+        "4E 415-419, 423-426 (Class 15: investigative stops, fleeing)",
+        "4E 454-457, 462-465 (Class 16: identification statutes, protective sweeps)",
+        "4E 600-612 (Class 18: due process, Massiah, Miranda)",
+        "4E 615-628 (Class 19: custody, interrogation, exceptions)",
+        "4E 631-649 (Class 20: adequacy of warnings, midstream warnings, waiver)",
+        "4E 651-655, 659-662, 664-665 (Class 21/22: invocation, Mosley, Edwards)",
+        "4E 703-715 (Class 23: identification, Sixth Amendment)",
+        "4E 717-727, 733-739 (Class 24: due process identification challenges)",
+        "4E 747-751, 755-770 (Class 25: exclusionary rule, good faith, standing)",
+        "4E 812-818, 828-834 (Class 26: fruit of the poisonous tree, attenuation, independent source, inevitable discovery)"
+      ],
+      "intentionalGaps": [
+        "Classes 7-10 and 20-21: no current-semester slides or class notes were available locally; questions on these topics rest on the syllabus assignment, the student's supplied copy of Tyler Konigsberg's Spring 2026 Makar outline (same professor, prior semester), and the Class 11-26 reading briefings, not on live reading of these casebook pages.",
+        "Classes 27-28 are catch-up/final review with no new doctrine.",
+        "Questions flagged as open or unsettled (e.g., pole cameras, plate-reader databases, tower dumps, geofence warrants, drones, forensic border device searches) test reasoning from assigned cases, not a claimed holding."
+      ],
+      "status": "232 original MC questions across 13 packs. CCP-04 to CCP-13 are ten 20-question cumulative practice exams (Classes 1-26), each with a public-policy justification in every explanation, modeled on Prof. Makar's in-class hypo method of new facts drawn from unsettled lower-court issues.",
+      "limitation": "The ten cumulative exams were drafted from the syllabus, the class reading briefings (Classes 11, 14-16, 18-19, 22-26), and Tyler Konigsberg's Spring 2026 Makar outline as supplied by the student. Assigned casebook pages for Classes 7-10 and 20-21 were not read live for this batch. Open-question items state the strongest arguments rather than a settled rule."
     },
     "Constitutional Law II": {
-      "publishedSets": ["CLII-01", "CLII-02"],
+      "publishedSets": [
+        "CLII-01",
+        "CLII-02"
+      ],
       "cutoff": "Sessions 1-3 (Aug. 18-25, 2026)",
-      "assignedRanges": ["Syllabus pp. 1-13 (Session 1, overview)", "Stone pp. 405, 671-672, 444-455, 457-463 (Session 2, rational basis)", "Stone pp. 405-407, 409-413, 418-420, 425-429, 431-433 (Session 3, race and equality history)"],
-      "intentionalGaps": ["Session 4 (Aug. 27, heightened scrutiny and the problem of race) assigned but not yet reflected in confirmed class notes; Session 5 (Sept. 1) onward not covered"],
+      "assignedRanges": [
+        "Syllabus pp. 1-13 (Session 1, overview)",
+        "Stone pp. 405, 671-672, 444-455, 457-463 (Session 2, rational basis)",
+        "Stone pp. 405-407, 409-413, 418-420, 425-429, 431-433 (Session 3, race and equality history)"
+      ],
+      "intentionalGaps": [
+        "Session 4 (Aug. 27, heightened scrutiny and the problem of race) assigned but not yet reflected in confirmed class notes; Session 5 (Sept. 1) onward not covered"
+      ],
       "status": "15 vetted original MC questions across two packs; grounded in the syllabus and the student's session notes. CLII-02 draws additional distinct angles from the same confirmed Session 1-3 material rather than new sources, since the notes for this course are thinner than Con Crim Pro's.",
       "limitation": "No slide deck exists for this course as of the cutoff; only the syllabus and session notes control. Session 4 reading is assigned but excluded from these packs pending confirmed notes."
     }

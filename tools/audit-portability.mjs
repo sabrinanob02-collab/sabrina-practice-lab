@@ -36,6 +36,8 @@ const allowedRawSources = new Set([
   "sources/con-crim-pro/ConCrim_Hypo_Set_2_MillbrookRidge.docx",
   "sources/con-crim-pro/ConCrim_Hypo_Set_3_CedarHollow.docx",
   "sources/con-crim-pro/ConCrim_Hypo_Set_4_PortAlden_Capstone.docx",
+  "sources/con-crim-pro/Makar_Criminal Procedure Syllabus_F26_v1.2 (2026.08.25).docx",
+  "sources/con-crim-pro/Makar Spring 2026 (Tyler Konigsberg).pdf",
   "sources/con-law-ii/Higginbotham_Con Law II_Fall 2026_Syllabus-1.docx",
   "sources/con-law-ii/Con Law II.docx",
   "sources/con-law-ii/Students for Fair Admissions v. President Fellows of Harvard College reading-1.pdf"

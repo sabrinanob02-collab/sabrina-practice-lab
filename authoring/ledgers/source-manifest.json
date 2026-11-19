@@ -5,32 +5,165 @@
     "bundledRawSources": true,
     "publicationRule": "The sources directory is authoring-only and must never be copied into _site.",
     "sources": [
-      { "path": "sources/trademarks/Beebe-Trademark-Law-Open-Access.pdf", "sha256": "076C1968B01939034ACBC6083F59D4E2906248C52C26A2CD48A9C7C84FF32051", "status": "open-access textbook" },
-      { "path": "sources/trademarks/Professor-Sipe-Fall-2026-Syllabus.docx", "sha256": "92379AEDD62036400EE17A66650FAE27410D0BE1EE30462EB661C03417AC2776", "status": "professor-shared course material" },
-      { "path": "sources/trademarks/Class-01-Slides-2026-08-17.pptx", "sha256": "21A4EC45351646EF0A531F78895C564F1DCA60D588ED38CB86DB79C27891A100", "status": "professor-shared course material" },
-      { "path": "sources/trademarks/Class-02-Slides-2026-08-19.pptx", "sha256": "3210AD0AA051D6066AC90B007F117A678F9B122C1CFE52A95D00423CC7ABCFFE", "status": "professor-shared course material" },
-      { "path": "sources/trademarks/Class-02-Reading-Casebook-pp-26-51.pdf", "sha256": "D07918A8CF18404B6D66384E02DCC357CDC518EADE2C960BE4CB043F1C4517AD", "status": "assigned excerpt from open-access textbook" },
-      { "path": "sources/trademarks/Class-02-Canvas-Problem-1.md", "sha256": "AF6FA00F3D3A3BF5FCEF38540A536B5014D4069EBF4F041B9D7D9871A10D2A44", "status": "professor-shared class problem" },
-      { "path": "sources/trademarks/Class-03-Reading-Casebook-pp-51-67-and-71-88.pdf", "sha256": "C8026D7E3440156277C7DF9CD6FE29110D28FD67C405D13B280754DF37065D88", "status": "assigned excerpt from open-access textbook" }
+      {
+        "path": "sources/trademarks/Beebe-Trademark-Law-Open-Access.pdf",
+        "sha256": "076C1968B01939034ACBC6083F59D4E2906248C52C26A2CD48A9C7C84FF32051",
+        "status": "open-access textbook"
+      },
+      {
+        "path": "sources/trademarks/Professor-Sipe-Fall-2026-Syllabus.docx",
+        "sha256": "92379AEDD62036400EE17A66650FAE27410D0BE1EE30462EB661C03417AC2776",
+        "status": "professor-shared course material"
+      },
+      {
+        "path": "sources/trademarks/Class-01-Slides-2026-08-17.pptx",
+        "sha256": "21A4EC45351646EF0A531F78895C564F1DCA60D588ED38CB86DB79C27891A100",
+        "status": "professor-shared course material"
+      },
+      {
+        "path": "sources/trademarks/Class-02-Slides-2026-08-19.pptx",
+        "sha256": "3210AD0AA051D6066AC90B007F117A678F9B122C1CFE52A95D00423CC7ABCFFE",
+        "status": "professor-shared course material"
+      },
+      {
+        "path": "sources/trademarks/Class-02-Reading-Casebook-pp-26-51.pdf",
+        "sha256": "D07918A8CF18404B6D66384E02DCC357CDC518EADE2C960BE4CB043F1C4517AD",
+        "status": "assigned excerpt from open-access textbook"
+      },
+      {
+        "path": "sources/trademarks/Class-02-Canvas-Problem-1.md",
+        "sha256": "AF6FA00F3D3A3BF5FCEF38540A536B5014D4069EBF4F041B9D7D9871A10D2A44",
+        "status": "professor-shared class problem"
+      },
+      {
+        "path": "sources/trademarks/Class-03-Reading-Casebook-pp-51-67-and-71-88.pdf",
+        "sha256": "C8026D7E3440156277C7DF9CD6FE29110D28FD67C405D13B280754DF37065D88",
+        "status": "assigned excerpt from open-access textbook"
+      }
     ],
     "knownGap": "No Aug. 31 slide deck was available when the package was assembled; no coverage of that deck is claimed."
   },
   "Constitutional Criminal Procedure I": {
-    "controllingSourceDescription": "Prof. Makar's Fall 2026 syllabus, posted Class 1-5 slides, the assigned Weaver/Burkoff/Hancock casebook pages, and the student's own class outline/notes",
-    "verifiedThrough": "2026-09-02 (Class 6, probable cause — assigned casebook pages read live through 4E p. 269 only; no slide deck exists for this class)",
+    "controllingSourceDescription": "Prof. Makar's Fall 2026 syllabus (v1 and v1.2), posted Class 1-5 slides, the assigned casebook pages, the student's own outline/notes, Claude-prepared class reading briefings for Classes 11-26, and Tyler Konigsberg's Spring 2026 Makar outline (supplied by the student)",
+    "verifiedThrough": "2026-11-16 (Class 26, fruit of the poisonous tree)",
     "bundledRawSources": true,
     "publicationRule": "The sources directory is authoring-only and must never be copied into _site.",
     "sources": [
-      { "path": "sources/con-crim-pro/Makar_Criminal Procedure Syllabus_F26_v1 (2026.07.23).docx", "sha256": "4f81eaa9733dba7418861d33db030a63fb2f72acce3ab943f33a973bad8493f4", "status": "professor-shared syllabus" },
-      { "path": "sources/con-crim-pro/CCP1_Week1_What is a Search.pptx", "sha256": "70e04ff3dca7a332d71f8d6bd059431491d768a8cc03e4a6b3d1df7b43c6e07c", "status": "professor-shared slides (Classes 1-2)" },
-      { "path": "sources/con-crim-pro/CCP1_Class3_Search Cont'd (Chatrie_v1).pptx", "sha256": "08471e7399e82893c644464b38585653de91888c5e6edb617939958a24a4f921", "status": "professor-shared slides (Class 3)" },
-      { "path": "sources/con-crim-pro/CCP1_Week 2_Class 4_Warrant Execution_F26.pptx", "sha256": "ad3877ff66d24241d31da2bdbd185e7cebadb126968cda91eb506cab1bdea63f", "status": "professor-shared slides (Class 5 content, warrant execution)" },
-      { "path": "sources/con-crim-pro/Con_Crim_Pro_I_Outline.docx", "sha256": "81559382577448e567e637f9d7f43181092b6a0dc10d52039c031d8a4fed9f3b", "status": "student's own outline" },
-      { "path": "sources/con-crim-pro/Con Crim Pro I.docx", "sha256": "aee0f197febb12e5db94adb67488ae81dc88439a423f24625da3161eddfea855", "status": "student's own class notes" },
-      { "path": "sources/con-crim-pro/ConCrim_Hypo_Set_1_Fairhaven.docx", "sha256": "4329baece8e00a04deff3b214c2f2ece1e324cfcb81d5e42a2001e0694119863", "status": "professor practice hypo set (style/blacklist calibration only, not a doctrine source)" },
-      { "path": "sources/con-crim-pro/ConCrim_Hypo_Set_2_MillbrookRidge.docx", "sha256": "de8dad1fcad292e3dd3380705d929c4f808b17daa0f6400ff08d19c79c6f64b8", "status": "professor practice hypo set (style/blacklist calibration only, not a doctrine source)" },
-      { "path": "sources/con-crim-pro/ConCrim_Hypo_Set_3_CedarHollow.docx", "sha256": "9b3381fa125d097e84c799a564ed118d5c496a64d788ada152799d7b7abcdd74", "status": "professor practice hypo set (style/blacklist calibration only, not a doctrine source)" },
-      { "path": "sources/con-crim-pro/ConCrim_Hypo_Set_4_PortAlden_Capstone.docx", "sha256": "00d39b927529827872cb4222dc1569480cae3900e48738760594734a72559c3b", "status": "professor practice hypo set (style/blacklist calibration only, not a doctrine source)" }
+      {
+        "path": "sources/con-crim-pro/Makar_Criminal Procedure Syllabus_F26_v1 (2026.07.23).docx",
+        "sha256": "4f81eaa9733dba7418861d33db030a63fb2f72acce3ab943f33a973bad8493f4",
+        "status": "professor-shared syllabus"
+      },
+      {
+        "path": "sources/con-crim-pro/CCP1_Week1_What is a Search.pptx",
+        "sha256": "70e04ff3dca7a332d71f8d6bd059431491d768a8cc03e4a6b3d1df7b43c6e07c",
+        "status": "professor-shared slides (Classes 1-2)"
+      },
+      {
+        "path": "sources/con-crim-pro/CCP1_Class3_Search Cont'd (Chatrie_v1).pptx",
+        "sha256": "08471e7399e82893c644464b38585653de91888c5e6edb617939958a24a4f921",
+        "status": "professor-shared slides (Class 3)"
+      },
+      {
+        "path": "sources/con-crim-pro/CCP1_Week 2_Class 4_Warrant Execution_F26.pptx",
+        "sha256": "ad3877ff66d24241d31da2bdbd185e7cebadb126968cda91eb506cab1bdea63f",
+        "status": "professor-shared slides (Class 5 content, warrant execution)"
+      },
+      {
+        "path": "sources/con-crim-pro/Con_Crim_Pro_I_Outline.docx",
+        "sha256": "81559382577448e567e637f9d7f43181092b6a0dc10d52039c031d8a4fed9f3b",
+        "status": "student's own outline"
+      },
+      {
+        "path": "sources/con-crim-pro/Con Crim Pro I.docx",
+        "sha256": "aee0f197febb12e5db94adb67488ae81dc88439a423f24625da3161eddfea855",
+        "status": "student's own class notes"
+      },
+      {
+        "path": "sources/con-crim-pro/ConCrim_Hypo_Set_1_Fairhaven.docx",
+        "sha256": "4329baece8e00a04deff3b214c2f2ece1e324cfcb81d5e42a2001e0694119863",
+        "status": "professor practice hypo set (style/blacklist calibration only, not a doctrine source)"
+      },
+      {
+        "path": "sources/con-crim-pro/ConCrim_Hypo_Set_2_MillbrookRidge.docx",
+        "sha256": "de8dad1fcad292e3dd3380705d929c4f808b17daa0f6400ff08d19c79c6f64b8",
+        "status": "professor practice hypo set (style/blacklist calibration only, not a doctrine source)"
+      },
+      {
+        "path": "sources/con-crim-pro/ConCrim_Hypo_Set_3_CedarHollow.docx",
+        "sha256": "9b3381fa125d097e84c799a564ed118d5c496a64d788ada152799d7b7abcdd74",
+        "status": "professor practice hypo set (style/blacklist calibration only, not a doctrine source)"
+      },
+      {
+        "path": "sources/con-crim-pro/ConCrim_Hypo_Set_4_PortAlden_Capstone.docx",
+        "sha256": "00d39b927529827872cb4222dc1569480cae3900e48738760594734a72559c3b",
+        "status": "professor practice hypo set (style/blacklist calibration only, not a doctrine source)"
+      },
+      {
+        "path": "sources/con-crim-pro/Makar_Criminal Procedure Syllabus_F26_v1.2 (2026.08.25).docx",
+        "sha256": "ae2bd991542b14f33e8919df4882b3a63dbdbeae7f3a4f0e34bad0525128d96e",
+        "status": "professor-shared syllabus (current version)"
+      },
+      {
+        "path": "sources/con-crim-pro/Makar Spring 2026 (Tyler Konigsberg).pdf",
+        "sha256": "d99769379d9e20a8494206fd4fd63a6d4c040e0795b93de574cf4fc231bda9dd",
+        "status": "student-supplied classmate outline from Prof. Makar's Spring 2026 section; used for case list and justifications, with doctrine checked against the current syllabus"
+      },
+      {
+        "path": "sources/con-crim-pro/Con Crim Pro I - Class 11 - 2026-09-23 - Reading Briefing.md",
+        "sha256": "0774678e91b7e843bbc543ae417b0ecefc642ec7dd94902e08e3dd4a5efe5cc3",
+        "status": "Claude-prepared reading briefing from the assigned pages and slides"
+      },
+      {
+        "path": "sources/con-crim-pro/Con Crim Pro I - Class 14 - 2026-10-05 - Reading Briefing (Terry, Safford).md",
+        "sha256": "d3c91a9f37b51f059dffbd057990514df4c4191487037386189b0426a0b03244",
+        "status": "Claude-prepared reading briefing from the assigned pages and slides"
+      },
+      {
+        "path": "sources/con-crim-pro/Con Crim Pro I - Class 15 - 2026-10-07 - Reading Briefing (Mendenhall, Hodari D.).md",
+        "sha256": "9a037053a12db2b24a0b92493e7e89e689e1b3f659405cadc61444763ad64050",
+        "status": "Claude-prepared reading briefing from the assigned pages and slides"
+      },
+      {
+        "path": "sources/con-crim-pro/Con Crim Pro I - Class 16 - 2026-10-12 - Reading Briefing (Hiibel, Buie).md",
+        "sha256": "6a88e88a0c28e0930ea179a511afe9a5a6ea3f7d266c23218b088051fc7d200c",
+        "status": "Claude-prepared reading briefing from the assigned pages and slides"
+      },
+      {
+        "path": "sources/con-crim-pro/Con Crim Pro I - Class 18 - 2026-10-19 - Reading Briefing (Massiah, Miranda).md",
+        "sha256": "e219af21f54f61618ec17539aac87e4caeede2618f9000e1a4a0a4b6fc44c14d",
+        "status": "Claude-prepared reading briefing from the assigned pages and slides"
+      },
+      {
+        "path": "sources/con-crim-pro/Con Crim Pro I - Class 19 - 2026-10-21 - Reading Briefing (Stansbury, Innis, Quarles, Perkins).md",
+        "sha256": "b568839bc4a267c5bd929d7e6124c769c4226ab5ba6ee956a1b613cd70bae069",
+        "status": "Claude-prepared reading briefing from the assigned pages and slides"
+      },
+      {
+        "path": "sources/con-crim-pro/Con Crim Pro I - Class 22 - 2026-11-02 - Reading Briefing (Davis, Mosley, Edwards).md",
+        "sha256": "d5a549e4e9adc1f167814d7b4ab2928fc6c0c2258851d54b05d2d1f1b291b57d",
+        "status": "Claude-prepared reading briefing from the assigned pages and slides"
+      },
+      {
+        "path": "sources/con-crim-pro/Con Crim Pro I - Class 23 - 2026-11-04 - Reading Briefing (Wade, Kirby, Ash).md",
+        "sha256": "b5eef1825b8cd9ccbecd5b1313998700e7b8b3e1921f4072f972750f209623e0",
+        "status": "Claude-prepared reading briefing from the assigned pages and slides"
+      },
+      {
+        "path": "sources/con-crim-pro/Con Crim Pro I - Class 24 - 2026-11-09 - Reading Briefing (Foster, Biggers, Manson, Perry).md",
+        "sha256": "9cc00d9383abdb5bbbda00ca7b55a134861b9097f835a472104b9808bd409e58",
+        "status": "Claude-prepared reading briefing from the assigned pages and slides"
+      },
+      {
+        "path": "sources/con-crim-pro/Con Crim Pro I - Class 25 - 2026-11-11 - Reading Briefing (Wolf, Mapp, Leon).md",
+        "sha256": "8f859b256e0f14bdbe35ed58cd378a6483ddd0fc8a63411b6c11fd0b071d12c1",
+        "status": "Claude-prepared reading briefing from the assigned pages and slides"
+      },
+      {
+        "path": "sources/con-crim-pro/Con Crim Pro I - Class 26 - 2026-11-16 - Reading Briefing (Brown, Nix, Segura).md",
+        "sha256": "a6bf185c79eab97cb9cae30159187c666f05353fdc55ee82352c41c3d7b645d9",
+        "status": "Claude-prepared reading briefing from the assigned pages and slides"
+      }
     ],
     "knownGap": "No Class 6 (Sept. 2, probable cause) slide deck exists to date. Class 6's assigned casebook pages (3E 258-279 / 4E 254-274, Gates majority only) were read live via Sabrina's authenticated West Academic session, not bundled here per this course's read-only casebook policy, and only confirmed through 4E p. 269 — pp. 270-274 are not covered."
   },
@@ -40,9 +173,21 @@
     "bundledRawSources": true,
     "publicationRule": "The sources directory is authoring-only and must never be copied into _site.",
     "sources": [
-      { "path": "sources/con-law-ii/Higginbotham_Con Law II_Fall 2026_Syllabus-1.docx", "sha256": "7b7da90e730ae5741ae72396b809eb77a9be025e38bfd96102f1d5bbbfd83c60", "status": "professor-shared syllabus" },
-      { "path": "sources/con-law-ii/Con Law II.docx", "sha256": "8a65f1c6e2177623beb8619c713617fd37983639b77c32fc14ee058c1d3d4fd7", "status": "student's own class notes" },
-      { "path": "sources/con-law-ii/Students for Fair Admissions v. President Fellows of Harvard College reading-1.pdf", "sha256": "510f6155bccd68bc4f30047c467ce54c78b8cfbe2723555f11b39557b8fbdb56", "status": "professor-shared Canvas reading, Session 6 (Sept. 3) - public-domain federal court opinion, not subject to the West Academic/Aspen casebook-copyright restriction" }
+      {
+        "path": "sources/con-law-ii/Higginbotham_Con Law II_Fall 2026_Syllabus-1.docx",
+        "sha256": "7b7da90e730ae5741ae72396b809eb77a9be025e38bfd96102f1d5bbbfd83c60",
+        "status": "professor-shared syllabus"
+      },
+      {
+        "path": "sources/con-law-ii/Con Law II.docx",
+        "sha256": "8a65f1c6e2177623beb8619c713617fd37983639b77c32fc14ee058c1d3d4fd7",
+        "status": "student's own class notes"
+      },
+      {
+        "path": "sources/con-law-ii/Students for Fair Admissions v. President Fellows of Harvard College reading-1.pdf",
+        "sha256": "510f6155bccd68bc4f30047c467ce54c78b8cfbe2723555f11b39557b8fbdb56",
+        "status": "professor-shared Canvas reading, Session 6 (Sept. 3) - public-domain federal court opinion, not subject to the West Academic/Aspen casebook-copyright restriction"
+      }
     ],
     "knownGap": "No slide deck exists for this course as of the cutoff. Session 4 (Aug. 27) reading is assigned but not yet reflected in confirmed class notes, so it is excluded from this pack."
   }

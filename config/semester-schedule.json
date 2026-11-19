@@ -10,7 +10,9 @@
       "verifiedCoverageThrough": "2026-08-31",
       "nextClass": {
         "date": null,
-        "assignedPages": ["Beebe 13th ed. assigned pp. 89-108 and 131-146; cumulative verified ranges pp. 1-67, 71-108, and 131-146"],
+        "assignedPages": [
+          "Beebe 13th ed. assigned pp. 89-108 and 131-146; cumulative verified ranges pp. 1-67, 71-108, and 131-146"
+        ],
         "slides": [],
         "notes": "The Aug. 31 slide deck was not included or claimed as covered. Point Claude to your authorized copy before requesting a slide-grounded extension."
       }
@@ -20,12 +22,12 @@
       "professor": "Professor Makar",
       "meetingPattern": "M/W 9:00a-10:15a, AL 603",
       "examDate": null,
-      "verifiedCoverageThrough": "2026-09-02 (Class 6; assigned casebook pages confirmed only through 4E p. 269, not the full 254-274 range)",
+      "verifiedCoverageThrough": "2026-11-16 (Class 26; cumulative exams cover Classes 1-26)",
       "nextClass": {
-        "date": null,
+        "date": "2026-11-23",
         "assignedPages": [],
         "slides": [],
-        "notes": "Class 7's assigned reading is not yet confirmed against the current syllabus. Point Claude to the syllabus and any posted deck before requesting the next extension."
+        "notes": "Class 28 is the final review day (Class 27, Nov. 18, was a catch-up day). No new doctrine is scheduled; exam date TBD."
       }
     },
     {
@@ -36,7 +38,9 @@
       "verifiedCoverageThrough": "2026-08-25 (Session 3); Session 4 (Aug. 27) assigned but not yet reflected in confirmed class notes",
       "nextClass": {
         "date": "2026-09-01",
-        "assignedPages": ["Session 5: Equal Protection Methodology: Heightened Scrutiny and the Problem of Race (continued); Stone pp. 463-469, 470-479, 481-490, 492-495"],
+        "assignedPages": [
+          "Session 5: Equal Protection Methodology: Heightened Scrutiny and the Problem of Race (continued); Stone pp. 463-469, 470-479, 481-490, 492-495"
+        ],
         "slides": [],
         "notes": "This course has posted no slides at all as of the cutoff; only the syllabus and the student's own session notes control."
       }

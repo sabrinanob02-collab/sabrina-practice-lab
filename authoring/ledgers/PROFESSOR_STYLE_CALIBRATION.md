@@ -28,6 +28,10 @@ Preserve these style dimensions unless newer direct course evidence changes them
 
 Subject-matter firewall: only the current Con Crim Pro I syllabus, assigned casebook pages, posted slides, and class notes may control doctrine.
 
+### Update 2026-11-19: in-class hypo method (Classes 14-16 slides, via reading briefings)
+
+Prof. Makar's in-class hypos are multiple-choice problems "based on" real lower-court cases on unsettled questions (for example, a frisk and show-up case from the D.C. Circuit, a high-crime traffic-stop case from the District of Massachusetts, and protective sweeps outside the arrest setting), plus a midterm built on a reverse-keyword warrant. CCP-04 through CCP-13 follow that method with original facts: many items test open questions (pole cameras, plate readers, tower dumps, geofences, drones, border device searches, AI-assisted identifications) and ask for the strongest argument from the assigned cases rather than a claimed holding. Every explanation ends with a policy justification at the student's request. Her own hypo facts and the reverse-keyword midterm topic were treated as a blacklist.
+
 ## Professor Higginbotham (Constitutional Law II) style calibration
 
 No current-course exam or model answer is bundled here. The syllabus states the final exam mixes traditional hypothetical essay questions and multiple-choice questions, and that multiple-choice questions receive no partial credit — consistent with the app's single-best-answer format.
